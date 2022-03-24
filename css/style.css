@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.container {
+    width: 90%;
+    margin: auto;
+}
+
 .box {
     display: inline-block;
     width: 620px;
@@ -48,11 +53,11 @@
     display: none;
 }
 
-.display-img:hover {
+.immagine-box:hover .display-img{
     display: none;
 }
 
-.img:hover{
+.immagine-box:hover .img {
     display: block;
 }
 
