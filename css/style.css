@@ -4,11 +4,44 @@
     box-sizing: border-box;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
+.riga {
+}
+section {
+    display: inline-block;
+    width: 33%;
+    position: relative;
 }
 
-img {
-    width: 30%;
+.heart {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    font-size: 20px;
+    background-color: white;
+    padding: 20px;
+}
+
+.sconto {
+    background-color: lightcoral;
+    position: absolute;
+    left: 0;
+    bottom: 80px;
+    padding: 5px;
+}
+
+.sostenibilità {
+    background-color: lightgreen;
+    position: absolute;
+    bottom: 80px;
+    left: 50px;
+    padding: 5px;
+}
+
+#resize {
+    width: 618px;
+    height: 922px;
+}
+
+.red {
+    color: red;
 }
