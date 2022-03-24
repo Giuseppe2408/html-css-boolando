@@ -49,15 +49,19 @@
     display: none;
 }
 
-.hover-img:hover {
+.levi:hover {
     display: none;
-}
-
-.immagine-box:hover .img {
-    display: inline-block;
 }
 
 .resize {
     width: 618px;
     height: 920px;
+}
+
+.marca {
+    color: grey;
+}
+
+.lineover {
+    text-decoration: line-through;
 }
