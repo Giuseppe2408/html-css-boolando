@@ -9,13 +9,12 @@
     width: 620px;
     height: 924px;
     position: relative;
-    margin: auto;
 }
 
 .immagine-box {
     display: inline-block;
 }
-
+/* dentro l'immagine */
 .heart {
     position: absolute;
     right: 0;
@@ -44,13 +43,17 @@
 .red {
     color: red;
 }
-
+/* hover */
 .img {
     display: none;
 }
 
-.levi:hover {
+.display-img:hover {
     display: none;
+}
+
+.img:hover{
+    display: block;
 }
 
 .resize {
