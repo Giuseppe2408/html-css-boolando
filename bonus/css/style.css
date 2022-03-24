@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* header */
+header {
+    position: relative;
+}
+
+header > div {
+    height: 200px;
+    background-color: rgb(26, 26, 165);
+}
+
+div > h1 {
+    color: darkorange;
+    font-size: 150px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+div > input {
+    position: absolute;
+    bottom: 30px;
+    right: 27%;
+    width: 45%;
+    height: 50px;
+    text-align: center;
+}
+
+/* main */
+.container {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.box {
+    display: inline-block;
+    width: 33%;
+    height: 804px;
+    position: relative;
+}
+
+.immagine-box {
+    display: inline-block;
+}
+/* dentro l'immagine */
+.img {
+    display: none;
+}
+
+.display-img {
+    position: relative;
+}
+
+.heart {
+    position: absolute;
+    left: 450px;
+    top: 20px;
+    font-size: 20px;
+    background-color: white;
+    padding: 20px;
+}
+
+.sconto {
+    background-color: lightcoral;
+    position: absolute;
+    left: 0;
+    bottom: 150px;
+    padding: 5px;
+}
+
+.sostenibilità {
+    background-color: lightgreen;
+    position: absolute;
+    bottom: 150px;
+    left: 50px;
+    padding: 5px;
+}
+
+.red {
+    color: red;
+}
+/* hover */
+
+.immagine-box:hover .display-img{
+    display: none;
+}
+
+.immagine-box:hover .img {
+    display: block;
+    cursor: pointer;
+}
+
+.resize {
+    width: 520px;
+    height: 824px;
+}
+
+.marca {
+    color: grey;
+}
+
+.lineover {
+    text-decoration: line-through;
+}
