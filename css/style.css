@@ -4,12 +4,16 @@
     box-sizing: border-box;
 }
 
-.riga {
-}
-section {
+.box {
     display: inline-block;
-    width: 33%;
+    width: 620px;
+    height: 924px;
     position: relative;
+    margin: auto;
+}
+
+.immagine-box {
+    display: inline-block;
 }
 
 .heart {
@@ -37,11 +41,23 @@ section {
     padding: 5px;
 }
 
-#resize {
-    width: 618px;
-    height: 922px;
-}
-
 .red {
     color: red;
+}
+
+.img {
+    display: none;
+}
+
+.hover-img:hover {
+    display: none;
+}
+
+.immagine-box:hover .img {
+    display: inline-block;
+}
+
+.resize {
+    width: 618px;
+    height: 920px;
 }
